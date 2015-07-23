@@ -1,0 +1,1 @@
+body{padding:50px;font:14px "Lucida Grande",Helvetica,Arial,sans-serif}#messages{height:40px;color:#fff;z-index:99999;opacity:0.7}#messages ul{padding:0;margin:0;list-style:none;text-align:center;line-height:40px}#messages ul.success{background:green}#messages ul.danger{background:red}a{color:#00B7FF}
