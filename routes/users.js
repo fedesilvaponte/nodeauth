@@ -131,4 +131,7 @@ router.get('/logout', function (req, res) {
     res.redirect('/users/login');
 });
 
+router.get('/:username', function (req, res) {
+    res.render('useraccount');
+});
 module.exports = router;
