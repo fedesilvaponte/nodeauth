@@ -5,14 +5,10 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var session = require('express-session');
 var passport = require('passport');
-var localStrategy = require('passport-local').Strategy;
 var bodyParser = require('body-parser');
-var multer = require('multer');
 var flash = require('connect-flash');
 var expressValidator = require('express-validator');
-var mongo = require('mongodb');
 var mongoose = require('mongoose');
-var db = mongoose.connection;
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
